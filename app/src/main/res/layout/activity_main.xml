@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/txtFecha"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="22dp"
+            android:layout_width="245dp"
+            android:layout_height="40dp"
+            android:text="@string/jueves_24_de_febrero_2022_8_30"
+            android:textColor="@color/secondary" />
+
+
+        <ImageView
+            android:id="@+id/iwPrimary"
+            android:layout_width="244dp"
+            android:layout_height="148dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignEnd="@+id/txtFecha"
+            android:paddingTop="23dp"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/iconprimary" />
+
+        <TextView
+            android:id="@+id/textView0"
+            android:layout_width="245dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/iwPrimary"
+            android:layout_alignStart="@+id/iwPrimary"
+            android:layout_alignEnd="@+id/iwPrimary"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="0dp"
+            android:gravity="center"
+            android:text="@string/bienvenido_al_sistema_de_pago_m_vil"
+            android:textColor="@color/secondary" />
+
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView0"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="49dp"
+            android:layout_marginEnd="48dp"
+            android:columnCount="2"
+            android:rowCount="2">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btnVuelto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_row="0"
+                android:layout_column="0"
+                app:cardUseCompatPadding="true"
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/ic_vuelto"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnReporte"
+                android:layout_columnWeight="1"
+                android:layout_row="0"
+                android:layout_column="1"
+                app:cardUseCompatPadding="true"
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/ic_reportes"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+
+    </RelativeLayout>
+</layout>

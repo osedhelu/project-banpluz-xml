@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="60dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+
+    <group
+        android:name="Marketing"
+        android:translateX="-718.000000"
+        android:translateY="-590.000000">
+        <group
+            android:name="Conversion"
+            android:translateX="724.000000"
+            android:translateY="594.000000">
+            <group
+                android:name="Triangle-45-+-Line-+-Line"
+                android:translateX="6.000000">
+                <path
+                    android:name="Triangle-45"
+                    android:fillType="evenOdd"
+                    android:strokeColor="#002554"
+                    android:strokeWidth="2"
+                    android:strokeLineJoin="round"
+                    android:strokeLineCap="round"
+                    android:pathData="M28,19.5 L28,0.5 L41,10 L28,19.5 Z" />
+                <path
+                    android:name="Line"
+                    android:fillType="evenOdd"
+                    android:strokeColor="#002554"
+                    android:strokeWidth="2"
+                    android:strokeLineJoin="round"
+                    android:strokeLineCap="square"
+                    android:pathData="M24,7 L0,7" />
+                <path
+                    android:name="Line"
+                    android:fillType="evenOdd"
+                    android:strokeColor="#002554"
+                    android:strokeWidth="2"
+                    android:strokeLineJoin="round"
+                    android:strokeLineCap="square"
+                    android:pathData="M24,13 L0,13" />
+            </group>
+            <group
+                android:name="Triangle-45-+-Line-+-Line"
+                android:translateX="40.000000"
+                android:translateY="32.000000"
+                android:scaleX="-1">
+                <path
+                    android:name="Triangle-45"
+                    android:fillType="evenOdd"
+                    android:strokeColor="#002554"
+                    android:strokeWidth="2"
+                    android:strokeLineJoin="round"
+                    android:strokeLineCap="round"
+                    android:pathData="M28,19.5 L28,0.5 L41,10 L28,19.5 Z" />
+                <path
+                    android:name="Line"
+                    android:fillType="evenOdd"
+                    android:strokeColor="#002554"
+                    android:strokeWidth="2"
+                    android:strokeLineJoin="round"
+                    android:strokeLineCap="square"
+                    android:pathData="M24,7 L0,7" />
+                <path
+                    android:name="Line"
+                    android:fillType="evenOdd"
+                    android:strokeColor="#002554"
+                    android:strokeWidth="2"
+                    android:strokeLineJoin="round"
+                    android:strokeLineCap="square"
+                    android:pathData="M24,13 L0,13" />
+            </group>
+            <path
+                android:name="Line"
+                android:fillType="evenOdd"
+                android:strokeColor="#002554"
+                android:strokeWidth="2"
+                android:strokeLineJoin="round"
+                android:strokeLineCap="round"
+                android:pathData="M47.0106354,26 L0,26" />
+        </group>
+    </group>
+</vector>

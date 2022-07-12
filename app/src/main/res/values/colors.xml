@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="primary">#a3c52c</color>
+    <color name="my_app_primary_color">#a3c52c</color>
+    <color name="secondary">#253a64</color>
+    <color name="my_app_secondary_color">#253a64</color>
+    <color name="danger">#ff0000</color>
+    <color name="my_app_error_color">#ff0000</color>
+
+    <color name="my_app_primary_variant_color">#1B190F</color>
+    <color name="my_app_background_color">#776E65</color>
+    <color name="my_app_secondary_variant_color">#FAFBEF</color>
+
+    <color name="my_app_surface_color">#423327</color>
+    <color name="my_app_color_on_primary">#efcf9b</color>
+
+    <color name="my_app_color_on_secondary">#a40b0b</color>
+    <color name="my_app_color_on_background">#780533</color>
+    <color name="my_app_color_on_error">#ffa500</color>
+    <color name="my_app_color_on_surface">#1775a4</color>
+
+    <color name="message_bg">#CDFAF8EF</color>
+
+    <color name="white_cell_premium">#EAF7E0</color>
+    <color name="black_cell_premium">#185303</color>
+    <color name="contrast_data_premium">#177118</color>
+    <!--colors for profile-->
+    <color name="profilePrimaryDark">#FF3B30</color>
+    <color name="profileAccentColor">#F7F7F7</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="profileBackground">#fff</color>
+    <color name="blackTextColor">#000</color>
+    <color name="profileEditTextColor">#707070</color>
+</resources>

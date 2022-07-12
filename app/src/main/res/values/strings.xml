@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">banplusxml</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello">hii</string>
+    <string name="select">select item</string>
+    <string name="bienvenido_al_sistema_de_pago_m_vil">Bienvenido al sistema de pago Móvil</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="cedula">Cedula</string>
+    <string name="document">document</string>
+    <string name="monto">Monto</string>
+    <string name="telefono">Telefono</string>
+    <string name="guardar">Guardar</string>
+    <string name="selecionar_banco">Selecionar Banco</string>
+    <string name="nombre_del_banco">nombre del banco</string>
+    <string name="textMonto">Monto</string>
+    <string name="type">type</string>
+    <string name="todo">TODO</string>
+    <string name="textdocument">document</string>
+    <string name="textfield_label">example text</string>
+    <string name="title_activity_test">TestActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="label">Hello second fragment. Arg: %1$s</string>
+    <string name="jueves_24_de_febrero_2022_8_30">Jueves 24 de Febrero 2022 8:30</string>
+    <string name="textBanPlus">Bienvenido al sistema de pago Móvil</string>
+    <string name="txtVuelto">Vuelto</string>
+    <string name="txtreportes">Reportes</string>
+    <string name="txttodo">TODO</string>
+    <string name="ver_detalles">ver detalles</string>
+    <string name="title">title</string>
+    <string name="Consolidadrio_Diario">Consolidado Diario</string>
+    <string name="secondary_text">Vuelto</string>
+    <string name="valueFecha">25/02/2022</string>
+    <string name="title_Cantidad">Cantidad:</string>
+    <string name="title_Monto">Monto:</string>
+    <string name="valueHora">8:34 AM</string>
+    <string name="fecha">Fecha:</string>
+    <string name="Title_Vuelto">Vuelto</string>
+
+    <string name="hora_label">Hora:</string>
+    <string name="distribuciones_globales">Distribuciones Globales</string>
+    <string name="rif_text">Rif: J3928348972934</string>
+    <string name="supporting_text">supporting_text</string>
+    <string name="action_1">action1</string>
+    <string name="action_2">action2</string>
+    <string name="fab_content_desc">btn-detail</string>
+    <string name="title_print">imprimir</string>
+    <string name="title_ver_detaller">Ver Detalles</string>
+
+</resources>
