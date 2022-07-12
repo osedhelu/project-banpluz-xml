@@ -7,11 +7,14 @@
     <data>
 
     </data>
-
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#FFFFFF"
+        android:layout_alignParentBottom="true"
         tools:context=".MainActivity">
 
         <TextView
@@ -54,9 +57,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/textView0"
             android:layout_centerHorizontal="true"
-            android:layout_marginStart="20dp"
+            android:layout_marginEnd="70dp"
             android:layout_marginTop="49dp"
-            android:layout_marginEnd="48dp"
             android:columnCount="2"
             android:rowCount="4"
             android:visibility="visible">
@@ -70,8 +72,10 @@
                 android:layout_column="0"
                 android:text="@string/cedula" />
 
-            <EditText
+
+            <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/etTypeDocument"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
                 android:layout_width="65dp"
                 android:layout_height="wrap_content"
                 android:layout_row="1"
@@ -80,41 +84,69 @@
                 android:importantForAutofill="no"
                 android:inputType="number"
                 android:textColorHint="#757575"
-                tools:ignore="TouchTargetSizeCheck" />
+                tools:ignore="TouchTargetSizeCheck">
 
-            <EditText
-                android:id="@+id/etDocument"
-                android:layout_width="266dp"
-                android:layout_height="wrap_content"
+                <AutoCompleteTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textField"
+                android:layout_width="264dp"
+                android:layout_height="match_parent"
                 android:layout_row="1"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_column="1"
-                android:hint="@string/document"
-                android:inputType="number"
-                android:textColorHint="#757575"
-                tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck"
-                android:autofillHints="" />
+                android:hint="@string/cedula"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_text_Document"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_row="3"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_columnSpan="2"
+                android:layout_column="0"
+                android:hint="@string/cedula"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
 
             <TextView
                 android:id="@+id/tvTxtPhone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_row="2"
-                android:paddingTop="33dp"
                 android:layout_column="0"
+                android:paddingTop="33dp"
                 android:text="@string/telefono" />
 
-            <EditText
-                android:id="@+id/etPhone"
-                android:layout_width="190dp"
-                android:layout_height="wrap_content"
-                android:layout_row="3"
-                android:layout_columnSpan="2"
-                android:layout_gravity="fill"
-                android:autofillHints=""
-                android:hint="@string/textdocument"
-                android:inputType="numberSigned"
-                android:minHeight="48dp"
-                tools:ignore="TextFields" />
 
 
         </GridLayout>
@@ -125,12 +157,12 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/textView0"
             android:layout_centerHorizontal="true"
-            android:visibility="invisible"
             android:layout_marginStart="20dp"
             android:layout_marginTop="49dp"
             android:layout_marginEnd="48dp"
             android:columnCount="2"
-            android:rowCount="4">
+            android:rowCount="4"
+            android:visibility="invisible">
 
             <TextView
                 android:id="@+id/tvTxtBanck"
@@ -147,17 +179,17 @@
                 android:layout_row="1"
                 android:layout_columnSpan="2"
                 android:layout_gravity="fill"
+                android:autofillHints=""
                 android:hint="@string/nombre_del_banco"
-                android:inputType="text"
-                android:autofillHints="" />
+                android:inputType="text" />
 
             <TextView
                 android:id="@+id/tvTxtMonto"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingTop="33dp"
                 android:layout_row="3"
                 android:layout_column="0"
+                android:paddingTop="33dp"
                 android:text="@string/textMonto" />
 
             <EditText
@@ -168,11 +200,48 @@
                 android:layout_columnSpan="2"
                 android:layout_gravity="fill"
                 android:hint="@string/monto"
-                android:inputType="number"
-                android:importantForAutofill="no" />
+                android:importantForAutofill="no"
+                android:inputType="number" />
 
         </GridLayout>
 
 
     </RelativeLayout>
+
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/floating_report"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="46dp"
+            android:layout_marginStart="46dp"
+            android:layout_gravity="bottom|center"
+            android:backgroundTint="@color/primary"
+            app:iconGravity="end"
+            android:layout_marginBottom="16dp"
+            android:text="@string/title_ver_detaller"
+            app:icon="@drawable/ic_checke"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/floating_details"
+            android:layout_marginEnd="46dp"
+            android:layout_marginStart="46dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:iconTint="@color/black"
+            android:layout_marginBottom="70dp"
+            android:layout_gravity="bottom|center"
+            android:backgroundTint="@color/my_app_secondary_variant_color"
+            android:textColor="@color/black"
+
+            android:text="@string/title_print"
+            app:icon="@drawable/ic_checke_black"
+            app:iconGravity="end"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </layout>

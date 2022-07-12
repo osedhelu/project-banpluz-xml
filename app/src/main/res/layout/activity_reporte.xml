@@ -261,6 +261,7 @@
             android:layout_marginStart="46dp"
             android:layout_gravity="bottom|center"
             android:backgroundTint="@color/primary"
+            app:iconGravity="end"
             android:layout_marginBottom="16dp"
             android:text="@string/title_ver_detaller"
             app:icon="@drawable/ic_checke"
@@ -274,12 +275,15 @@
             android:layout_marginStart="46dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            app:iconTint="@color/black"
             android:layout_marginBottom="70dp"
             android:layout_gravity="bottom|center"
             android:backgroundTint="@color/my_app_secondary_variant_color"
             android:textColor="@color/black"
+
             android:text="@string/title_print"
             app:icon="@drawable/ic_checke_black"
+            app:iconGravity="end"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 

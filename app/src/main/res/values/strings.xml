@@ -7,7 +7,7 @@
     <string name="bienvenido_al_sistema_de_pago_m_vil">Bienvenido al sistema de pago Móvil</string>
     <string name="siguiente">Siguiente</string>
     <string name="cedula">Cedula</string>
-    <string name="document">document</string>
+    <string name="document">Cedula</string>
     <string name="monto">Monto</string>
     <string name="telefono">Telefono</string>
     <string name="guardar">Guardar</string>
